@@ -1,0 +1,6 @@
+{
+  "name": "Quick Overtime Tracker",
+  "description": "Daily overtime and work hours tracker with AM/PM time entry, break deduction, monthly summary, and CSV import/export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
