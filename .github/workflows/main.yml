@@ -21,9 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # আপনার কোনো ডিপেনডেন্সি থাকলে নিচে যুক্ত করুন, যেমন:
-        # pip install pyinstaller
 
     - name: Run Script Test
       run: |
-        python -m py_compile main.py  # আপনার মেইন পাইথন ফাইলের নাম দিন
+        python -m py_compile app.py
